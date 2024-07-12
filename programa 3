@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main () {
+int P, total1, total2, Kaue, Kaua, Amanda, Angela;
+printf("Digite os pontos de Kaue, Kaua, Amanda, Angela:");
+scanf("%d %d %d %d", &Kaue, &Kaua, &Amanda, &Angela);
+
+total1 = Kaue + Kaua;
+total2 = Amanda + Angela;
+if (total1>total2)
+    {
+    printf("Equipe Korra VENCEU");
+    }
+    else {
+    printf("Equipe Anng VENCEU");
+    }
+}
