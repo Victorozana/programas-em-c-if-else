@@ -1,0 +1,16 @@
+#include <stdio.h> 
+int main () {
+float valor1, valor2, total;
+printf("Digite o valor do 1º produto e 2º produto:");
+scanf("%f %f", &valor1, &valor2);
+if (valor1<valor2)
+{
+total = valor1/2 + valor2;
+printf("Valor total é:%.2f", total);
+}
+    else
+    {
+    total = valor2/2 + valor1;
+    printf("Valor total é:%.2f", total);
+    }
+}
