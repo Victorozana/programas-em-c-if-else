@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main () {
+int ano, idade;
+char nome[30];
+printf("Digite ano em que nasceu, e nome:");
+scanf("%d %s", &ano, &nome); 
+if (ano>2006)
+{
+    ano = ano + 18;
+    printf("O ano que você irá completar 18 é:%d", ano);
+}
+else
+{ 
+    printf("Maior de idade");
+}
+}
